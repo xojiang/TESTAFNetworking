@@ -12,6 +12,8 @@
 		7704B2341D4C864600600D13 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7704B2331D4C864600600D13 /* MobileCoreServices.framework */; };
 		7704B2361D4C864A00600D13 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7704B2351D4C864A00600D13 /* Security.framework */; };
 		7704B2381D4C865100600D13 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7704B2371D4C865100600D13 /* SystemConfiguration.framework */; };
+		778FBADD1D6AF44D003DF694 /* TESTJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 778FBADC1D6AF44D003DF694 /* TESTJSONModel.m */; };
+		778FBADE1D6AF44D003DF694 /* TESTJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 778FBADC1D6AF44D003DF694 /* TESTJSONModel.m */; };
 		77A354841D4C812D0024F7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A354831D4C812D0024F7F3 /* main.m */; };
 		77A354871D4C812D0024F7F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A354861D4C812D0024F7F3 /* AppDelegate.m */; };
 		77A3548A1D4C812D0024F7F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77A354891D4C812D0024F7F3 /* ViewController.m */; };
@@ -48,6 +50,8 @@
 		7704B2331D4C864600600D13 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		7704B2351D4C864A00600D13 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7704B2371D4C865100600D13 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		778FBADB1D6AF44D003DF694 /* TESTJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TESTJSONModel.h; sourceTree = "<group>"; };
+		778FBADC1D6AF44D003DF694 /* TESTJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TESTJSONModel.m; sourceTree = "<group>"; };
 		77A3547F1D4C812D0024F7F3 /* TESTAFNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTAFNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A354831D4C812D0024F7F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77A354851D4C812D0024F7F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +145,8 @@
 				77A354901D4C812D0024F7F3 /* LaunchScreen.storyboard */,
 				77A354931D4C812D0024F7F3 /* Info.plist */,
 				77A354821D4C812D0024F7F3 /* Supporting Files */,
+				778FBADB1D6AF44D003DF694 /* TESTJSONModel.h */,
+				778FBADC1D6AF44D003DF694 /* TESTJSONModel.m */,
 			);
 			path = TESTAFNetworking;
 			sourceTree = "<group>";
@@ -366,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A3548A1D4C812D0024F7F3 /* ViewController.m in Sources */,
+				778FBADD1D6AF44D003DF694 /* TESTJSONModel.m in Sources */,
 				77A354871D4C812D0024F7F3 /* AppDelegate.m in Sources */,
 				77A354841D4C812D0024F7F3 /* main.m in Sources */,
 			);
@@ -376,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A3549D1D4C812D0024F7F3 /* TESTAFNetworkingTests.m in Sources */,
+				778FBADE1D6AF44D003DF694 /* TESTJSONModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

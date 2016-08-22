@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '67AC89E9CAA5A712C0A6403F8778F18D'
-               BlueprintName = 'Pods-TESTAFNetworking'
+               BlueprintIdentifier = 'E89EA0620E22EDB775A7C107518644DD'
+               BlueprintName = 'JSONModel'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-TESTAFNetworking.a'>
+               BuildableName = 'libJSONModel.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
